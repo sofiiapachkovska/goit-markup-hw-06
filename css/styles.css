@@ -39,10 +39,6 @@ header .logo-studio {
     text-transform: uppercase;
 }
 
-.address {
-    font-style: normal;
-}
-
 .navigation .studio-link {
     color: #2E2F42;
     font-size: 16px;
@@ -56,7 +52,7 @@ header .logo-studio {
 }
 
 .navigation .studio-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 
 .navigation .studio-link:active {
@@ -64,31 +60,7 @@ header .logo-studio {
     text-decoration: underline;
 }
 
-.navigation .portfolio-link {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
-.navigation .portfolio-link:hover {
-    color: #404BBF
-}
-
-.navigation .contacts-link {
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
-.navigation .contacts-link:hover {
-    color: #404BBF;
-}
-
-.email-address {
+.address .email-address {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
@@ -96,15 +68,11 @@ header .logo-studio {
     letter-spacing: 0.02em;
 }
 
-.email-address:focus {
-    color: #404bbf;
-}
-
-.email-address:hover {
+.address .email-address:hover {
     color: #404BBF;
 }
 
-.phone-number {
+.address .phone-number {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +80,7 @@ header .logo-studio {
     letter-spacing: 0.02em;
 }
 
-.phone-number:hover {
+.address .phone-number:hover {
     color: #404BBF;
 }
 

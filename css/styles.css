@@ -39,6 +39,10 @@ header .logo-studio {
     text-transform: uppercase;
 }
 
+.address {
+    font-style: normal;
+}
+
 .navigation .studio-link {
     color: #2E2F42;
     font-size: 16px;
@@ -52,7 +56,7 @@ header .logo-studio {
 }
 
 .navigation .studio-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .navigation .studio-link:active {
@@ -60,19 +64,31 @@ header .logo-studio {
     text-decoration: underline;
 }
 
-.address .email-address {
-    color: #434455;
-    font-weight: 400;
+.navigation .portfolio-link {
+    color: #2E2F42;
     font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
-.address .email-address:hover {
+.navigation .portfolio-link:hover {
+    color: #404BBF
+}
+
+.navigation .contacts-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.navigation .contacts-link:hover {
     color: #404BBF;
 }
 
-.address .phone-number {
+.email-address {
     color: #434455;
     font-weight: 400;
     font-size: 16px;
@@ -80,7 +96,23 @@ header .logo-studio {
     letter-spacing: 0.02em;
 }
 
-.address .phone-number:hover {
+.email-address:focus {
+    color: #404bbf;
+}
+
+.email-address:hover {
+    color: #404BBF;
+}
+
+.phone-number {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.phone-number:hover {
     color: #404BBF;
 }
 
@@ -146,7 +178,7 @@ letter-spacing: 0.02em;
 }
 
 .section-three {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .first-member {

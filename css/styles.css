@@ -269,6 +269,7 @@ address {
 
 .footer-page {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-web {
@@ -279,6 +280,9 @@ address {
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    display: block;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-studio {

@@ -1,12 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 ul,
 ol {
     list-style-type: none;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     font-style: normal;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 body {
@@ -15,10 +28,28 @@ body {
     color: #434455;
     font-size: 16px;
     background-color: #FFFFFF;
+    min-height: 100vh;
 }
 
-header {
-    color: #E7E9FC;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 header .logo-web {

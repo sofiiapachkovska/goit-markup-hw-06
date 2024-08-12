@@ -52,6 +52,11 @@ p {
     align-items: center;
 }
 
+header {
+    color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
 header .logo-web {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -60,6 +65,10 @@ header .logo-web {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.header-box {
+    border: 1px solid #E7E9FC;
 }
 
 header .logo-studio {
@@ -73,6 +82,11 @@ header .logo-studio {
 
 address {
     font-style: normal;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
 }
 
 .navigation .studio-link {

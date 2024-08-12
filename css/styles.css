@@ -40,7 +40,7 @@ header .logo-studio {
     text-transform: uppercase;
 }
 
-.address {
+address {
     font-style: normal;
 }
 
@@ -74,7 +74,7 @@ header .logo-studio {
 }
 
 .navigation .portfolio-link:hover {
-    color: #404BBF
+    color: #404BBF;
 }
 
 .navigation .contacts-link {
@@ -101,9 +101,6 @@ header .logo-studio {
     color: #404bbf;
 }
 
-.email-address:hover {
-    color: #404BBF;
-}
 
 .phone-number {
     color: #434455;
@@ -113,16 +110,20 @@ header .logo-studio {
     letter-spacing: 0.02em;
 }
 
+.email-address:hover {
+    color: #404BBF;
+}
+
 .phone-number:hover {
     color: #404BBF;
 }
 
-.section-one {
-        background-color: #2E2F42;
-        text-align: center;
+.section-first {
+    background-color: #2E2F42;
+    text-align: center;
 }
 
-.main-title {
+.big-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 56px;
@@ -134,24 +135,25 @@ header .logo-studio {
 }
 
 .button {
-    background-color:#4D5AE5;
-    color:#ffffff;
-    font-size:16px;
-    font-weight:500;
-    cursor:pointer;
-    line-height:1.5;
-    letter-spacing:0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
 
 .button:hover {
-    background-color:#404BBF;
+    background-color: #404BBF;
 }
 
 .button:focus {
-    background-color:#404BBF;
+    background-color: #404BBF;
 }
 
-.title-two {
+.title-second {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -169,49 +171,49 @@ header .logo-studio {
     text-align: center;
 }
 
-
-.short-description {
-font-weight: 400;
-font-size: 16px;
-color: #434455;
-line-height: 1.5;
-letter-spacing: 0.02em;
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .section-three {
-    background-color: #F4F4FD;
+    background-color:#F4F4FD;
 }
 
-.first-member {
+.one-member {
     background-color: #FFFFFF;
 }
 
 .introduction {
     text-transform: capitalize;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
     font-family: 'Roboto', sans-serif;
 }
 
-.name {
+.their-name {
     font-size: 20px;
     font-weight: 500;
-    color: #2e2f42;
+    color: #2E2F42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.position {
+.their-job {
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
 }
 
 .footer-page {

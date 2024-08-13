@@ -282,6 +282,13 @@ address {
 
 .section-three {
     background-color:#F4F4FD;
+    padding: 120px 0
+}
+
+.team-members {
+    display: flex;
+    gap: 24px;
+    flex-basis: 264px;
 }
 
 .one-member {
@@ -328,6 +335,12 @@ address {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+
+.app-interface {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none
 }
 
 .footer-page {

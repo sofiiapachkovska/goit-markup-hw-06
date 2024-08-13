@@ -101,6 +101,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0
 }
 
 .navigation .studio-link:hover {
@@ -296,6 +297,7 @@ address {
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 72px
 }
 
 .their-name {
@@ -314,6 +316,18 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
 
+}
+
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .footer-page {

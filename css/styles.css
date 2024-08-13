@@ -196,6 +196,7 @@ address {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    max-width: 496px;
 }
 
 .button {
@@ -222,6 +223,35 @@ address {
     background-color: #404BBF;
 }
 
+.section-second {
+    padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-second ul {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.punkt {
+    width: calc((1128px - 72px) / 4);
+    flex-shrink: 0;
+}
+
 .title-second {
     font-size: 20px;
     font-weight: 500;
@@ -237,7 +267,8 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 8px
 }
 
 .description {

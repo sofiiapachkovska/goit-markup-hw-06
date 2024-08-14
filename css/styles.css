@@ -102,7 +102,8 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 24px 0
+    padding: 24px 0;
+    display: block;
 }
 
 .navigation .studio-link:hover {
@@ -416,8 +417,7 @@ address {
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
-    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    font-family: 'Raleway', sans-serif;
+    max-width: 274px;
 }

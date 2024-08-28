@@ -588,6 +588,8 @@ address {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-bottom: 16px;
+    margin-right: 120px
 }
 
 .footer-text {

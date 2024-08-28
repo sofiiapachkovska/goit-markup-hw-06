@@ -224,7 +224,7 @@ address {
     margin-right: auto;
     padding-top: 16px;
     padding-bottom: 16px;
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover {
@@ -412,11 +412,37 @@ address {
     padding-bottom: 120px;
 }
 
+.cover-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.box-cover-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .app-interface {
@@ -429,6 +455,22 @@ address {
     width: 100%;
     display: block;
     height: auto;
+}
+
+.types-portfolio {
+    flex-shrink: 0;
+    flex-basis: 360px;
+    position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+.types-portfolio:hover .text-box {
+    transform: translateY(0%);
+}
+
+.types-portfolio:hover {
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .their-name-portfolio {

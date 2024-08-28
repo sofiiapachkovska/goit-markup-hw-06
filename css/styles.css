@@ -465,7 +465,7 @@ address {
     overflow: hidden;
 }
 
-.types-portfolio:hover .text-box {
+.types-portfolio:hover .cover-text {
     transform: translateY(0%);
 }
 

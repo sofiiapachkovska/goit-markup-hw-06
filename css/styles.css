@@ -99,7 +99,7 @@ address {
     align-items: center;
 }
 
-.studio-link {
+.studio-link-main {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -112,7 +112,7 @@ address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.studio-link::after {
+.studio-link-main::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -401,6 +401,13 @@ address {
     background-color: #FFFFFF;
 }
 
+.one-member img {
+    display: block;
+    max-width: 100%;
+    width: 264px;
+    height: 260px;
+}
+
 .introduction {
     text-transform: capitalize;
     font-size: 36px;
@@ -536,12 +543,6 @@ address {
     gap: 16px;
 }
 
-.footer-flex {
-    width: 264px;
-    margin-right: 120px;
-    margin-left: 156px;
-}
-
 .footer-studio {
     color: #F4F4FD;
     font-weight: 700;
@@ -570,6 +571,12 @@ address {
 
 .footer-link:focus {
     background-color: #31d0aa;
+}
+
+.footer-flex {
+    width: 264px;
+    margin-right: 120px;
+    margin-left: 156px;
 }
 
 .footer-text {

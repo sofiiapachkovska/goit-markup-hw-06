@@ -43,7 +43,7 @@
 <path fill="#f4f4fd" style="fill: var(--color5, #f4f4fd)" d="M16.059 7.783c-4.538 0-8.22 3.682-8.22 8.22s3.682 8.22 8.22 8.22c4.538 0 8.22-3.682 8.22-8.22s-3.682-8.22-8.22-8.22zM16.059 21.335c-2.944 0-5.332-2.388-5.332-5.332s2.388-5.332 5.332-5.332c2.944 0 5.332 2.388 5.332 5.332s-2.388 5.332-5.332 5.332z"></path>
 <path fill="#f4f4fd" style="fill: var(--color5, #f4f4fd)" d="M26.524 7.458c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
 </symbol>
-<symbol id="icon-diagram-1-1" viewBox="0 0 32 32">
+<symbol id="icon-diagram" viewBox="0 0 32 32">
 <path fill="#4d5ae5" style="fill: var(--color6, #4d5ae5)" d="M14.925 14.965h1.066v4.798h-1.066v-4.797z"></path>
 <path fill="#4d5ae5" style="fill: var(--color6, #4d5ae5)" d="M19.19 17.097h1.066v2.665h-1.066v-2.665z"></path>
 <path fill="#4d5ae5" style="fill: var(--color6, #4d5ae5)" d="M10.661 18.696h1.066v1.066h-1.066v-1.066z"></path>

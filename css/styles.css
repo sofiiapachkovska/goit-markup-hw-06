@@ -711,7 +711,7 @@ address {
     transform: translate(-50%, -100%);
 }
 
-....exit-button {
+.exit-button {
     position: absolute;
     top: 24px;
     right: 24px;

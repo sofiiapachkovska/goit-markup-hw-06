@@ -758,7 +758,7 @@ address {
 }
 
 .form-wrapper-cont {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -767,7 +767,7 @@ address {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .modal-input {
